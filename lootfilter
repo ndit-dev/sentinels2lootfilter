@@ -1420,7 +1420,7 @@
       <nameOverride>All Exalts - Turns off at 75</nameOverride>
     </Rule>
     <Rule>
-      <type>SHOW</type>
+      <type>HIGHLIGHT</type>
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
@@ -2050,7 +2050,7 @@
       <nameOverride>Tier 7 Havoc (CHECK WPN/OH TYPES &amp; DMGS &amp; CLASSES)</nameOverride>
     </Rule>
     <Rule>
-      <type>SHOW</type>
+      <type>HIGHLIGHT</type>
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
