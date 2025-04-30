@@ -529,7 +529,7 @@
         </Condition>
       </conditions>
       <color>14</color>
-      <isEnabled>true</isEnabled>
+      <isEnabled>false</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>19</maxLvl>
@@ -973,7 +973,7 @@
         </Condition>
       </conditions>
       <color>14</color>
-      <isEnabled>true</isEnabled>
+      <isEnabled>false</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>74</maxLvl>
@@ -1008,6 +1008,25 @@
             <int>869</int>
             <int>867</int>
             <int>836</int>
+            <int>853</int>
+            <int>109</int>
+            <int>430</int>
+            <int>117</int>
+            <int>113</int>
+            <int>112</int>
+            <int>851</int>
+            <int>111</int>
+            <int>116</int>
+            <int>114</int>
+            <int>115</int>
+            <int>835</int>
+            <int>838</int>
+            <int>852</int>
+            <int>855</int>
+            <int>868</int>
+            <int>842</int>
+            <int>110</int>
+            <int>196</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>1</comparsionValue>
@@ -2220,7 +2239,6 @@
         </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
-            <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
             <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
             <EquipmentType>TWO_HANDED_AXE</EquipmentType>
             <EquipmentType>SHIELD</EquipmentType>
@@ -2623,6 +2641,20 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>14</combinedComparsionValue>
           <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>TWO_HANDED_AXE</EquipmentType>
+            <EquipmentType>HELMET</EquipmentType>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+            <EquipmentType>BELT</EquipmentType>
+            <EquipmentType>BOOTS</EquipmentType>
+            <EquipmentType>GLOVES</EquipmentType>
+            <EquipmentType>AMULET</EquipmentType>
+            <EquipmentType>RING</EquipmentType>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes />
         </Condition>
       </conditions>
       <color>11</color>
